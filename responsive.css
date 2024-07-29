@@ -1,0 +1,28 @@
+@media screen and (min-width: 577px) and (max-width:992px){
+    
+}
+
+@media screen and (max-width:576px){
+    .navbar-container{
+       flex-direction: column;
+       align-items: flex-start;
+       padding-top: 30px;
+       margin-left: 20px;
+    }
+    .hamburger-icon{
+        display: block;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    .navbar-items{
+        display: none;
+    }
+    .navbar-container{
+        flex-direction: row;
+     }
+    .navbar-title{
+        color: rgb(230, 83, 60);
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+}
