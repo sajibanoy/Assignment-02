@@ -22,7 +22,42 @@
      }
     .navbar-title{
         color: rgb(230, 83, 60);
-        font-size: 1.5rem;
+        font-size: 2.25rem;
         font-weight: 800;
+    }
+    .banner-content{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .banner-text-title{
+        font-size: 2.25rem;
+    }
+    .banner-text-content{
+        margin-top: 50px;
+        width: 352px;
+        height: 335px;
+    }
+    .btn-primary{
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        border: none;
+        padding: 10px 30px;
+        color: rgb(255, 255, 255);
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+    .btn-primary{
+        padding: 10px 10px;
+        
+    }
+    .btn-download{
+        padding: 10px 10px;
+        
+    }
+    .banner-text-button{
+        display: flex;
+    }
+    .banner-img{
+        
     }
 }
