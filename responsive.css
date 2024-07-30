@@ -1,7 +1,7 @@
 @media screen and (min-width: 577px) and (max-width:992px){
     
 }
-
+/* small device media query starts here */
 @media screen and (max-width:576px){
     .navbar-container{
        flex-direction: column;
@@ -11,8 +11,7 @@
     }
     .hamburger-icon{
         display: block;
-        margin-top: 10px;
-        margin-right: 20px;
+        margin-top: 20px;
     }
     .navbar-items{
         display: none;
@@ -57,7 +56,21 @@
     .banner-text-button{
         display: flex;
     }
+    .banner-image-content{
+        position: relative;
+        width: 349px;
+    }
     .banner-img{
-        
+        max-width: 100%;
+    }
+    .card-01{
+        top: 8%;
+        left: 54%;
+        padding: 10px 10px;
+    }
+    .card-02{
+        bottom: 42%;
+        left: 5%;
+        padding: 10px 20px;
     }
 }
