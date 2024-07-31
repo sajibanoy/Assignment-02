@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 body{
     font-family: "Inter", sans-serif;
+    background: black;
     max-width: 1440px;
     margin: 0 auto;
-    /* border: 2px dashed green; */
+    border: 2px dashed green;
 }
 *{
     margin: 0;
@@ -26,7 +27,7 @@ body{
 /* navbar style starts here */
 .header-section{
     margin: 0 auto;
-    background: rgba(19, 19, 19, 0.945);
+    /* background: rgba(19, 19, 19, 0.945); */
 }
 .navbar-container{
     max-width: 74%;
@@ -69,7 +70,7 @@ body{
 /* navbar style ends here */
 /* banner styles starts here */
 .banner-container{
-    background: #222222;
+    /* background: #222222; */
     margin: 0 auto;
 }
 .banner-content{
@@ -86,8 +87,6 @@ body{
 .banner-image-content{
     width: 40%;
     position: relative;
-    /* margin-top: 32px; */
-    /* margin-left: 167px; */
 }
 .banner-img{
     width: 100%;
@@ -132,9 +131,12 @@ body{
 .card-02{
     background: rgba(48, 48, 48, 0.54);
     border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
     border-radius: 12px;
     width: max-content;
-    padding: 10px 30px;
+    padding: 20px 20px;
     position: absolute;
     bottom: 12%;
     right: 80%;
@@ -159,4 +161,68 @@ body{
     font-weight: 400;
     color: rgba(239, 237, 232, 0.65);
 }
+.audio-icon{
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    color: white;
+    align-items: center;
+    width: max-content;
+    padding: 10px 15px;
+}
 /* banner styles ends here */
+/* change your habit style starts here */
+.change-your-habit-container{
+    max-width: 74%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.change-your-habit-text-content{
+    text-align: center;
+}
+.change-your-habit-text-content-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.change-your-habit-text-content-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 14px;
+    line-height: 24px;
+}
+.change-your-habit-image-container{
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 55px;
+    margin-left: 8px;
+    margin-right: 8px;
+    gap: 40px;
+}
+.card{
+    /* max-width: 90%; */
+}
+.section-img{
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+.title{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+}
+.description{
+    font-size: 0.8rem;
+    font-weight: 400px;
+    line-height: 1.125rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 5px;
+}
+/* change your habit style ends here */

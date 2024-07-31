@@ -1,4 +1,5 @@
 @media screen and (min-width: 577px) and (max-width:992px){
+    /* header style starts here */
     .navbar-container{
         max-width: 80%;
         margin: 0 auto;
@@ -38,6 +39,16 @@
         left: 7%;
         padding: 10px 30px;
     }
+    /* header style ends here */
+    /* change your habit starts here */
+    .change-your-habit-text-content-title{
+        font-size: 2rem;
+    }
+    .change-your-habit-image-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+     /* change your habit ends here */
 }
 /* small device media query starts here */
 @media screen and (max-width:576px){
@@ -56,7 +67,7 @@
     }
     .navbar-container{
         flex-direction: row;
-     }
+    }
     .navbar-title{
         color: rgb(230, 83, 60);
         font-size: 2.25rem;
@@ -91,18 +102,16 @@
     }
     .btn-download{
         padding: 10px 10px;
-        
     }
     .banner-text-button{
         display: flex;
     }
     .banner-image-content{
         position: relative;
-        /* width: 349px; */
         width: 100%;
     }
     .banner-img{
-        /* max-width: 100%; */
+        max-width: 100%;
     }
     .card-01{
         top: 8%;
@@ -114,4 +123,13 @@
         left: 5%;
         padding: 10px 20px;
     }
+     /* change your habit starts here */
+     .change-your-habit-text-content-title{
+        font-size: 1.3rem;
+    }
+    .change-your-habit-image-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+     /* change your habit ends here */
 }
