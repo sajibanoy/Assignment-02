@@ -308,5 +308,52 @@ body{
     left: 10%;
     bottom: 10%;
 }
-
 /* meet our team style ends here */
+/* footer style starts here */
+footer{
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-container{
+    width: 74%;
+    height: 480px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content-01{
+    width: 40%;
+    height: 250px;
+    margin-top: 75px;
+    border: 2px solid red;
+}
+.footer-content-01-title{
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+}
+.footer-content-02, .footer-content-03{
+    width: 20%;
+    height: 250px;
+    margin-top: 70px;
+    border: 2px solid red;
+}
+.title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+.list-items{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+    list-style: none;
+}
+.disclaimer{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 40px;
+}
+/* footer style ends here */
