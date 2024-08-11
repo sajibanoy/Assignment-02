@@ -69,6 +69,19 @@
         width: 85%;
     }
     /* meet our team ends here */
+    /* footer section starts here */
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-content-01{
+        width: 55%;
+        margin-top: 75px;
+        /* margin-left: 30px; */
+    }
+    .footer-content-02{
+        width: 80%;
+    }
+    /* footer section ends here */
 }
 /* small device media query starts here */
 @media screen and (max-width:576px){
@@ -194,4 +207,28 @@
         font-size: 2rem;
     }
     /* meet our team ends here */
+    /* footer section starts here */
+    .footer-container{
+        flex-direction: column;
+        margin-top: 65px;
+    }
+    .footer-content-01{
+        width: 100%;
+        margin-top: 45px;
+    }
+    .footer-content-01-title{
+        font-size: 3.5rem;
+    }
+    .footer-content-02{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .footer-left-content,.footer-right-content{
+        width: 100%;
+    }
+    .footer-right-content{
+        margin-top: 20px;
+    }
+    /* footer section ends here */
 }

@@ -5,13 +5,13 @@ body{
     background: black;
     max-width: 1440px;
     margin: 0 auto;
-    /* border: 2px dashed green; */
+    border: 2px dashed green;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 2px solid red; */
+    /* border: 2px solid red;  */
 }
 /* shared style starts here */
 .btn-primary{
@@ -247,13 +247,13 @@ body{
     max-width: 40%;
     margin-left: 54px;
     margin-top: 45px;
-    /* border: 1px solid red; */
+ /* border: 1px solid red; */
 }
 .run-an-extra-image-content{
     width: 40%;
     margin-top: 30px;
     margin-right: 32px;
-    /* border: 1px solid red; */
+/* border: 1px solid red; */
 }
 .run-img{
     max-width: 100%;
@@ -315,7 +315,6 @@ footer{
 }
 .footer-container{
     width: 74%;
-    height: 480px;
     margin: 0 auto;
     margin-top: 100px;
     display: flex;
@@ -323,37 +322,143 @@ footer{
 }
 .footer-content-01{
     width: 40%;
-    height: 250px;
-    margin-top: 75px;
-    border: 2px solid red;
+    margin-top: 70px;
+    /* border: 2px solid red; */
 }
 .footer-content-01-title{
     color: rgb(230, 83, 60);
-    font-size: 70px;
+    font-size: 4.3rem;
     font-weight: 800;
 }
-.footer-content-02, .footer-content-03{
-    width: 20%;
-    height: 250px;
+.footer-content-02{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
     margin-top: 70px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+}
+.footer-left-content,.footer-right-content{
+    max-width: 50%;
+    /* border: 2px solid red; */
 }
 .title{
     color: rgb(255, 255, 255);
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
 }
 .list-items{
+    /* margin-left: 10px; */
+}
+.item{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 23px;
+    margin-top: 20px;
+    font-size: 1.5rem;
     font-weight: 400;
     list-style: none;
 }
+hr{
+    width: 74%;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
 .disclaimer{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     text-align: center;
+    margin-top: 35px;
     padding-bottom: 40px;
 }
 /* footer style ends here */
+/* BMI calculator style starts here */
+.bmi-calculator-content-01{
+    text-align: center;
+    margin-top: 90px;
+}
+.bmi-calculator-left-content{
+    margin-top: 52px;
+    width: 443px;
+}
+.bmi-calculator-right-content{
+    margin-top: 50px;
+    width: 590px;
+}
+.content-title{
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 50PX;
+}
+th{
+    color: rgb(255, 255, 255);
+}
+th,td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15PX 25PX;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmi{
+    text-align: left;
+}
+.bmi-calculator-content-02{
+    height: 500px;
+    background: rgb(34, 34, 34);
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 14px;
+}
+.form-field{
+    margin-top: 35px;
+}
+#height, #weight, #age{
+    width: 280px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+#weight{
+    margin-left: 10px;
+}
+#input-04{
+    width: 280px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+#input-05{
+    width: 575px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+#btn-calculate{
+    margin-top: 30px;
+}
+/* BMI calculator style ends here */
