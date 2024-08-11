@@ -64,6 +64,32 @@
         margin-left: 30px;
     }
     /* run and extra mile ends here */
+
+     /* BMI Calculator starts here */
+     .bmi-calculator-content-01{
+        width: 55%;
+        text-align: left ;
+        margin-top: 65px;
+        margin-left: 30px;
+     }
+     .bmi-calculator-content-02{
+        flex-direction: column;
+        margin-top: 45px;
+        padding-left: 30px;
+    }
+    .bmi-calculator-left-content{
+        width: 70%;
+        margin-top: 35px;
+    }
+    table{
+        margin-top: 45PX;
+    }
+    .bmi-calculator-right-content{
+        margin-top: 50px;
+        width: 67%;
+    }
+    /* BMI Calculator ends here */
+
     /* meet our team starts here */
     .meet-our-team-text-content{
         width: 85%;
@@ -195,6 +221,41 @@
         object-position: 66% 27%;
     }
     /* run and extra mile ends here */
+
+    /* BMI Calculator starts here */
+    .bmi-calculator-content-01{
+        width: 97%;
+        text-align: left ;
+        margin-top: 25px;
+        margin-left: 10px;
+     }
+     .section-title{
+        font-size: 2rem;
+    }
+     .bmi-calculator-content-02{
+        flex-direction: column;
+        margin-top: 32px;
+        padding-left: 10px;
+    }
+    .bmi-calculator-left-content{
+        width: 90%;
+        margin-top: 35px;
+    }
+    .content-title{
+        font-size: 1rem;
+    }
+    table{
+        margin-top: 45PX;
+    }
+    th,td{
+        padding: 10PX 20PX;
+    }
+    .bmi-calculator-right-content{
+        margin-top: 50px;
+        width: 95%;
+    }
+    /* BMI Calculator ends here */
+
     /* meet our team starts here */
     .meet-our-team-text-content{
         width: 100%;

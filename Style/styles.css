@@ -247,13 +247,11 @@ body{
     max-width: 40%;
     margin-left: 54px;
     margin-top: 45px;
- /* border: 1px solid red; */
 }
 .run-an-extra-image-content{
     width: 40%;
     margin-top: 30px;
     margin-right: 32px;
-/* border: 1px solid red; */
 }
 .run-img{
     max-width: 100%;
@@ -296,7 +294,6 @@ body{
 }
 .designation{
     color: rgba(255, 255, 255, 0.5);
-    /* font-size: 1.2rem; */
 }
 .trainer-img{
     width: 100%;
@@ -323,7 +320,6 @@ footer{
 .footer-content-01{
     width: 40%;
     margin-top: 70px;
-    /* border: 2px solid red; */
 }
 .footer-content-01-title{
     color: rgb(230, 83, 60);
@@ -335,19 +331,14 @@ footer{
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
-    /* border: 2px solid red; */
 }
 .footer-left-content,.footer-right-content{
     max-width: 50%;
-    /* border: 2px solid red; */
 }
 .title{
     color: rgb(255, 255, 255);
     font-size: 2rem;
     font-weight: 700;
-}
-.list-items{
-    /* margin-left: 10px; */
 }
 .item{
     color: rgba(255, 255, 255, 0.5);
@@ -376,13 +367,17 @@ hr{
     text-align: center;
     margin-top: 90px;
 }
+.bmi-calculator-content-02{
+    background: rgb(34, 34, 34);
+    margin-top: 90px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
 .bmi-calculator-left-content{
     margin-top: 52px;
-    width: 443px;
-}
-.bmi-calculator-right-content{
-    margin-top: 50px;
-    width: 590px;
+    width: 30%;
+    /* border: 2px solid red; */
 }
 .content-title{
     color: rgb(255, 255, 255);
@@ -392,6 +387,7 @@ hr{
 table{
     border-collapse: collapse;
     margin-top: 50PX;
+    /* width: 90%; */
 }
 th{
     color: rgb(255, 255, 255);
@@ -406,12 +402,10 @@ td{
 .bmi{
     text-align: left;
 }
-.bmi-calculator-content-02{
-    height: 500px;
-    background: rgb(34, 34, 34);
-    margin-top: 90px;
-    display: flex;
-    justify-content: space-evenly;
+.bmi-calculator-right-content{
+    margin-top: 50px;
+    width: 40%;
+    /* border: 2px solid red; */
 }
 .content-description{
     color: rgba(255, 255, 255, 0.5);
@@ -424,7 +418,7 @@ td{
     margin-top: 35px;
 }
 #height, #weight, #age{
-    width: 280px;
+    width: 45%;
     height: 48px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
@@ -438,7 +432,7 @@ td{
     margin-left: 10px;
 }
 #input-04{
-    width: 280px;
+    width: 45%;
     height: 48px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
@@ -449,7 +443,7 @@ td{
     margin-left: 10px;
 }
 #input-05{
-    width: 575px;
+    width: 93%;
     height: 48px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
