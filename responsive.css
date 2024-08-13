@@ -5,6 +5,9 @@
         margin: 0 auto;
         padding-top: 30px;
     }
+    .nav-right-content{
+        width: 60%;
+    }
     .navbar-items{
         gap: 30px;
         align-items: center;
@@ -112,6 +115,7 @@
 }
 /* small device media query starts here */
 @media screen and (max-width:576px){
+    /* Navbar responsive starts here */
     .nav-container{
         margin-left: 15px;
     }
@@ -133,13 +137,12 @@
         width: 10%;
         margin-top: 50px;
     }
-    /* .navbar-container{
-        flex-direction: row;
-    } */
     .navbar-title{
         color: rgb(230, 83, 60);
         font-size: 2.25rem;
         font-weight: 800;
+    /* Navbar responsive ends here */
+    /* Banner responsive starts here */
     }
     .banner-content{
         flex-direction: column;
@@ -193,7 +196,8 @@
         left: 5%;
         padding: 10px 20px;
     }
-     /* change your habit starts here */
+    /* Banner responsive ends here */
+     /* change your habit responsive starts here */
      .change-your-habit-text-content-title{
         font-size: 1.3rem;
     }
@@ -201,8 +205,8 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-     /* change your habit ends here */
-     /* run and extra mile starts here */
+     /* change your habit responsive ends here */
+     /* run and extra mile responsive starts here */
      .run-an-extra-container{
         max-width: 90%;
         flex-direction: column;
@@ -231,9 +235,8 @@
         height: 250px;
         object-position: 66% 27%;
     }
-    /* run and extra mile ends here */
-
-    /* BMI Calculator starts here */
+    /* run and extra mile responsive ends here */
+    /* BMI Calculator responsive starts here */
     .bmi-calculator-content-01{
         width: 97%;
         text-align: left ;
@@ -265,9 +268,9 @@
         margin-top: 50px;
         width: 95%;
     }
-    /* BMI Calculator ends here */
+    /* BMI Calculator responsive ends here */
 
-    /* meet our team starts here */
+    /* meet our team responsive starts here */
     .meet-our-team-text-content{
         width: 100%;
     }
@@ -278,8 +281,8 @@
     .section-title{
         font-size: 2rem;
     }
-    /* meet our team ends here */
-    /* footer section starts here */
+    /* meet our team responsive ends here */
+    /* footer section responsive starts here */
     .footer-container{
         flex-direction: column;
         margin-top: 65px;
@@ -296,11 +299,15 @@
         width: 100%;
         margin-top: 30px;
     }
-    .footer-left-content,.footer-right-content{
+    .footer-left-content, .footer-right-content{
         width: 100%;
     }
     .footer-right-content{
         margin-top: 20px;
     }
-    /* footer section ends here */
+    .title{
+        text-align: left;
+    }
+    
+    /* footer section responsive ends here */
 }
