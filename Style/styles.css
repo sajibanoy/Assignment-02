@@ -60,13 +60,6 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-top: 70px;
-    /* border: 2px solid green; */
-}
-.items{
-    text-decoration: none;
-    font-size: 1.125rem;
-    font-weight: 400;
-    color: rgb(255, 255, 255);
 }
 .btn-home{
     color: rgb(255, 255, 255);
@@ -75,6 +68,12 @@ header{
     background: rgb(230, 83, 60);
     padding: 10px 20px;
     border-radius: 40px;
+}
+.items{
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
 }
 #hamburger-icon{
     background: 2px solid rgb(128, 0, 90);
@@ -87,9 +86,9 @@ header{
 .banner-container{
     margin: 0 auto;
     margin-top: 20px;
-    max-width: 74%;
 }
 .banner-content{
+    width: 74%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -97,12 +96,10 @@ header{
 .banner-text-content{
     width: 43%;
     margin-top: 75px;
-    /* border: 2px solid red; */
 }
 .banner-image-content{
     width: 40%;
     position: relative;
-    /* border: 2px solid red; */
 }
 .banner-img{
     width: 100%;
