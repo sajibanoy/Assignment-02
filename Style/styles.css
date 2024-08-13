@@ -5,13 +5,11 @@ body{
     background: black;
     max-width: 1440px;
     margin: 0 auto;
-    /* border: 2px dashed green; */
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 2px solid red;  */
 }
 header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
@@ -292,7 +290,6 @@ header{
 table{
     border-collapse: collapse;
     margin-top: 50PX;
-    /* width: 90%; */
 }
 th{
     color: rgb(255, 255, 255);
@@ -310,7 +307,6 @@ td{
 .bmi-calculator-right-content{
     margin-top: 50px;
     width: 40%;
-    /* border: 2px solid red; */
 }
 .content-description{
     color: rgba(255, 255, 255, 0.5);
