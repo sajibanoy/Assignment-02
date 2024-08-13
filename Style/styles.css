@@ -13,6 +13,9 @@ body{
     box-sizing: border-box;
     /* border: 2px solid red;  */
 }
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
 /* shared style starts here */
 .btn-primary{
     border-radius: 42px;
@@ -40,9 +43,11 @@ body{
 .nav-container{
     width: 74%;
     margin: 0 auto;
-    margin-top: 70px;
     display: flex;
     justify-content: space-between;
+}
+.nav-left-content{
+    margin-top: 70px;
 }
 .nav-title{
     font-size: 2.25rem;
@@ -54,67 +59,71 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 70px;
+    /* border: 2px solid green; */
 }
 .items{
+    text-decoration: none;
     font-size: 1.125rem;
     font-weight: 400;
     color: rgb(255, 255, 255);
 }
-.home{
+.btn-home{
     color: rgb(255, 255, 255);
     font-size: 1.125rem;
     font-weight: 600;
-    border-radius: 40px;
     background: rgb(230, 83, 60);
-    padding: 5px 15px;
+    padding: 10px 20px;
+    border-radius: 40px;
 }
-.hamburger-icon{
-    width: 5%;
+#hamburger-icon{
     background: 2px solid rgb(128, 0, 90);
     color: white;
-    align-items: center;
+    margin-right: 10px;
     display: none;
 }
 /* navbar style ends here */
 /* banner styles starts here */
 .banner-container{
-    /* background: #222222; */
     margin: 0 auto;
+    margin-top: 20px;
+    max-width: 74%;
 }
 .banner-content{
-    max-width: 74%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 .banner-text-content{
-    width: 40%;
-    height: 440px;
-    margin-top: 96px;
+    width: 43%;
+    margin-top: 75px;
+    /* border: 2px solid red; */
 }
 .banner-image-content{
     width: 40%;
     position: relative;
+    /* border: 2px solid red; */
 }
 .banner-img{
     width: 100%;
 }
 .banner-text-title{
-    font-size: 4.5rem;
+    font-size: 4.8rem;
     font-weight: 900;
     color: rgb(255, 255, 255);
 }
 .shape{
     font-family: "Tangerine", cursive;
+    font-size: 8.5rem;
 }
 .banner-text-description{
     font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-    margin-top: 28px;
+    margin-top: 30px;
 }
 .banner-text-button{
-    margin-top: 28px;
+    margin-top: 30px;
 }
 .btn-download{
     background: black;
