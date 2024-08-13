@@ -159,7 +159,6 @@
     .banner-image-content{
         width: 100%;
         margin-top: 100px;
-        /* margin-left: 50px; */
     }
     .btn-primary{
         border-radius: 42px;
@@ -269,7 +268,6 @@
         width: 95%;
     }
     /* BMI Calculator responsive ends here */
-
     /* meet our team responsive starts here */
     .meet-our-team-text-content{
         width: 100%;
@@ -308,6 +306,5 @@
     .title{
         text-align: left;
     }
-    
     /* footer section responsive ends here */
 }
